@@ -20,4 +20,10 @@ class School
   def grade(num)
     roster[num]
   end
+  
+  def sort
+    hash = @roster
+    
+    
+  end
 end
