@@ -13,7 +13,10 @@ class School
   end
   
   def add_student(name, grade)
-    roster[grade] = student
+    if !roster[grade]
+      roster[grade] = []
+    end
+    roster[grade].push(name)
   end
 end
 
