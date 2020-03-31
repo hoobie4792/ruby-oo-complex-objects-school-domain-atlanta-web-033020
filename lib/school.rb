@@ -22,6 +22,12 @@ class School
   end
   
   def sort
+    hash = {}
     
+    @roster.each do |grade, students|
+      hash[grade] = students.sort
+    end
+    
+    hash
   end
 end
