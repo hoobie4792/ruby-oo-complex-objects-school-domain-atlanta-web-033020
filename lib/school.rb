@@ -18,6 +18,10 @@ class School
     end
     roster[grade].push(name)
   end
+  
+  def grade(num)
+    roster[num]
+  end
 end
 
 binding.pry
