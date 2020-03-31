@@ -22,8 +22,6 @@ class School
   end
   
   def sort
-    hash = @roster
-    
     
   end
 end
