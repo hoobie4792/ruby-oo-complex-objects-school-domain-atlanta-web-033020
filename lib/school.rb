@@ -1,5 +1,3 @@
-require 'pry'
-
 class School
   attr_accessor :roster
   
@@ -23,5 +21,3 @@ class School
     roster[num]
   end
 end
-
-binding.pry
