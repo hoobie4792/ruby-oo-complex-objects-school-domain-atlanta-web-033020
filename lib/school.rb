@@ -11,6 +11,10 @@ class School
   def name
     @name
   end
+  
+  def add_student(name, grade)
+    roster[grade] = student
+  end
 end
 
 binding.pry
