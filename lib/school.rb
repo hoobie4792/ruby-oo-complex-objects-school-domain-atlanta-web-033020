@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
   attr_accessor :roster
   
@@ -10,3 +12,5 @@ class School
     @name
   end
 end
+
+binding.pry
